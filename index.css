@@ -325,6 +325,39 @@ h3 {
 	margin-right: -5px;
 }
 
+[data-tip] {
+	position: relative;
+	border-bottom: 1px dotted #aaa;
+}
+
+[data-tip]:hover:after, [data-tip]:focus:after {
+	content: attr(data-tip);
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	white-space: nowrap;
+	padding: 5px 10px;
+	background: #212121;
+	color: #F5F5F5;
+	font-weight: bold;
+	border-radius: 8px;
+	z-index: 1;
+	-webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, .2);
+}
+
+[data-tip]:focus {
+	outline: none;
+}
+
+[data-tip]:hover:before, [data-tip]:focus:before {
+	content: "▲";
+	position: absolute;
+	top: 50px;
+	left: 62px;
+	font-size: 30px;
+	color: #212121;
+}
+
 .bouton {
 	background-color: #F5F5F5;
 	padding: 0 ;

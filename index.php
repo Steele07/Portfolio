@@ -103,7 +103,9 @@
 
 		    <div class="col-md-6 comp">
 		    	<div class="html col-md-4">
+		    		<span data-tip="HTML5" tabindex="0">
 		    		<button data-toggle="modal" href="#html" class="btn btn-primary bouton"><img class="img-responsive" src="images/logo-html5.png" alt="" /></button>
+					</span>
 					<div class="modal fade" id="html">
   						<div class="modal-dialog">
 							<div class="modal-content">
@@ -123,7 +125,9 @@
 		    	</div>
 
 		    	<div class="css col-md-4">
+		    		<span data-tip="CSS3" tabindex="0">
 		    		<button data-toggle="modal" href="#css" class="btn btn-primary bouton"><img class="img-responsive" src="images/logo-css3.png" alt="" /></button>
+					</span>
 					<div class="modal fade" id="css">
   						<div class="modal-dialog">
 							<div class="modal-content">
@@ -143,7 +147,9 @@
 		    	</div>
 
 		    	<div class="bootstrap col-md-4">
+		    		<span data-tip="Bootstrap" tabindex="0">
 		    		<button data-toggle="modal" href="#bootstrap" class="btn btn-primary bouton"><img class="img-responsive" src="images/logo-bootstrap.png" alt="" /></button>
+					</span>
 					<div class="modal fade" id="bootstrap">
   						<div class="modal-dialog">
 							<div class="modal-content">
@@ -163,7 +169,9 @@
 		    	</div>
 
 		    	<div class="wordpress col-md-4">
+		    		<span data-tip="Wordpress" tabindex="0">
 		    		<button data-toggle="modal" href="#wordpress" class="btn btn-primary bouton"><img class="img-responsive" src="images/logo-wordpress.png" alt="" /></button>
+					</span>
 					<div class="modal fade" id="wordpress">
   						<div class="modal-dialog">
 							<div class="modal-content">
@@ -183,7 +191,9 @@
 		    	</div>
 		    
 		    	<div class="php col-md-4">
+		    		<span data-tip="PHP" tabindex="0">
 		    		<button data-toggle="modal" href="#php" class="btn btn-primary bouton"><img class="img-responsive" src="images/logo-php.png" alt="" /></button>
+					</span>
 					<div class="modal fade" id="php">
   						<div class="modal-dialog">
 							<div class="modal-content">
@@ -203,7 +213,9 @@
 		    	</div>
 
 		    	<div class="jquery col-md-4">
+		    		<span data-tip="JQuery" tabindex="0">
 		    		<button data-toggle="modal" href="#jquery" class="btn btn-primary bouton"><img class="img-responsive" src="images/logo-jquery.png" alt="" /></button>
+					</span>
 					<div class="modal fade" id="jquery">
   						<div class="modal-dialog">
 							<div class="modal-content">
@@ -223,7 +235,9 @@
 		    	</div>
 
 		    	<div class="mysql col-md-4">
+		    		<span data-tip="MySQL" tabindex="0">
 		    		<button data-toggle="modal" href="#mysql" class="btn btn-primary bouton"><img class="img-responsive" src="images/mysql-logo.png" alt="" /></button>
+					</span>
 					<div class="modal fade" id="mysql">
   						<div class="modal-dialog">
 							<div class="modal-content">
@@ -243,7 +257,9 @@
 		    	</div>
 
 		    	<div class="git col-md-4">
+		    		<span data-tip="Git" tabindex="0">
 		    		<button data-toggle="modal" href="#git" class="btn btn-primary bouton"><img class="img-responsive" src="images/logo-git.png" alt="" /></button>
+					</span>
 					<div class="modal fade" id="git">
   						<div class="modal-dialog">
 							<div class="modal-content">
@@ -263,7 +279,9 @@
 		    	</div>
 
 		    	<div class="eclipse col-md-4">
-		    		<button data-toggle="modal" href="#eclipse" class="btn btn-primary bouton"><img class="img-responsive" src="images/logo-eclipse.png" alt="" /></button>
+		    		<span data-tip="Eclipse" tabindex="0">
+		    		<button data-toggle="modal" href="#eclipse" class="btn btn-primary bouton"><span data-tip="Eclipse" tabindex="0"><img class="img-responsive" src="images/logo-eclipse.png" alt="" /></button>
+		    		</span>
 					<div class="modal fade" id="eclipse">
   						<div class="modal-dialog">
 							<div class="modal-content">
