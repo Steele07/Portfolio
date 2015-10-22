@@ -1,0 +1,491 @@
+@font-face {
+	font-family: 'NerisBI';
+
+    src: url('fonts/Neris-BoldItalic-webfont.eot');
+    src: url('fonts/Neris-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    	 url('fonts/Neris-BoldItalic-webfont.woff') format('woff'),
+         url('fonts/Neris-BoldItalic-webfont.ttf') format('truetype'),
+         url('fonts/Neris-BoldItalic-webfont.svg#TuffyBI') format('svg');
+}
+
+@font-face {
+	font-family: 'edo';
+    src: url('fonts/edo-webfont.eot');
+    src: url('fonts/edo-webfont.eot?#iefix') format('embedded-opentype'),
+    	 url('fonts/edo-webfont.woff') format('woff'),
+         url('fonts/edo-webfont.ttf') format('truetype'),
+         url('fonts/edo-webfont.svg#edo') format('svg');
+}
+
+@font-face {
+	font-family: 'Neris';
+    src: url('fonts/Neris-Light-webfont.eot');
+    src: url('fonts/Neris-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    	 url('fonts/Neris-Light-webfont.woff') format('woff'),
+         url('fonts/Neris-Light-webfont.ttf') format('truetype'),
+         url('fonts/Neris-Light-webfont.svg#ActionMan') format('svg');
+}
+
+body {
+	background: url('images/background1.jpg') fixed center center no-repeat;
+	background-size: cover;
+	font-family: 'Neris';
+	text-align: center;
+	color: black;
+	font-size: 18px;
+}
+
+.container {
+	padding:0;
+}
+
+header {
+    height:100%; 
+    min-height:100%; 
+    position:relative; 
+    overflow:hidden;
+}
+
+.aboutme, .photo img, .code img, .devbox, .contact, .skillbox, footer {
+	border-radius: 8px;
+}
+
+@media all and (max-width: 767px){
+	.aboutme, .photo img, .code img, .devbox, .contact, .skillbox, footer {
+		border-radius: 0;
+	}
+}
+
+/* -------------------------------------NAV--------------------------------------*/
+
+
+.intit {
+	font-family: 'edo';
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 10px;
+	display: inline-block;
+	color: #E65100;
+}
+
+.navbar-header {
+	text-align: left;
+	padding: 15px 0;
+	margin-top: 10px;
+}
+
+.logo {
+	font-family: 'edo';
+	font-size: 30px;
+	float: left;
+	padding-left: 30px;
+	color: #E65100;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+	.navbar-nav {
+		float: left;
+	}
+}
+
+@media all and (min-width: 992px) {
+	.navbar-nav {
+		float: right;
+	}
+}
+
+.navbar {
+	background-color: #F5F5F5;
+	border: none;
+	margin: 0;
+}
+
+.navbar-nav {
+	margin: 10px 0;
+}
+
+.navbar-default .navbar-nav li a {
+	font-family: 'NerisBI';
+	text-decoration: none;	
+	font-size: 16px;
+	color: #9E9E9E;
+	transition: color 0.6s ease;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	transition: color 0.6s ease;
+	color: #E65100;
+	text-decoration: none;
+	background-color: #EEEEEE;
+	transition: background-color 0.8s ease;
+}
+
+.navbar-nav li a i {
+	margin-bottom: 5px;
+	color: #616161;
+}
+
+.li-home, .li-about, .li-skills, .li-folio {
+	border-right: 1px solid #E0E0E0;
+}
+
+/*-----------------------------------MAINTITLE---------------------------------*/
+
+.maintitle {
+	height: 100vh;
+	padding-top: 30vh;
+}
+
+.maintitle h1, .maintitle h2 {
+	font-family: 'edo';
+	font-size: 60px;
+	color: white;
+}
+
+.maintitle h1 {
+	font-size: 90px;
+}
+
+@media all and (max-width: 479px) {
+	.maintitle h1 {
+		font-size: 40px;
+	}
+
+	.maintitle h2 {
+		font-size: 20px;
+	}
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+	.maintitle h1 {
+		font-size: 65px;
+	}
+
+	.maintitle h2 {
+		font-size: 40px;
+	}
+}
+
+/*-----------------------------------ABOUT-------------------------------------*/
+
+h3 {
+	font-family: 'NerisBI';
+	margin-bottom: 20px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.subtitle {
+	color: #757575;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.paragraphe {
+	text-align: justify;	
+	padding: 0 15px 20px;
+}
+
+.aboutme {
+	background-color: #F5F5F5;
+	padding: 10px;
+}
+
+.subtitle i {
+	font-size: 18px;
+	margin: 0 20px;
+	color: #E65100;
+}
+
+.aboutme span i {
+	color: #E65100;
+	font-size: 36px;
+	margin-bottom: 20px;
+	margin-right: -5px;
+}
+
+/*-------------------------------------BOXES--------------------------------------*/
+
+.boxes {
+	margin: 40px auto;
+}
+
+.devbox {
+	background-color: #F5F5F5;
+	padding: 10px;
+}
+
+.photo {
+	padding: 0;
+	background: url(images/manu.jpg) no-repeat;
+	background-position: center center;
+	background-size: 135% 100%;
+	height: 365px;
+	border-radius: 6px;
+}
+
+.code {
+	padding: 0;
+	background: url(images/code.jpg) no-repeat;
+	background-position: center center;
+	background-size: 140% 100%;
+	height: 365px;
+	margin: 0 20px;
+	border-radius: 6px;
+}
+
+.devbox span i {
+	color: #E65100;
+	font-size: 36px;
+	margin-bottom: 20px;
+	margin-right: -5px;
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+	.photo, .code {
+		background-size: 160% 100%;
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+	.photo, .code {
+		background-size: 100% 100%;
+		padding: 0;
+		margin: 0 0 40px 0;
+	}
+}
+
+@media all and (min-width: 1px) and (max-width: 767px) {
+	.photo, .code {
+		background-size: contain;
+		padding: 0;
+		margin: 0 0 40px 0;
+	}
+}
+
+@media all and (max-width: 500px){
+	.code {
+		height: 200px;
+	}
+
+	.photo {
+		height: 290px;
+	}
+}
+
+
+
+/*------------------------------------PARALLAX------------------------------------*/
+
+.parallax {
+	height: 50vh;
+    background-image: url("images/parallax4.jpg");
+    background-attachment: fixed;    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 18vh;
+}
+
+.quote {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.kay {
+	font-size: 20px;
+}
+
+@media all and (max-width: 767px) {
+	.parallax {
+		padding-top: 12vh;
+	}
+	.quote {
+		font-size: 30px;
+	}
+}
+
+.parallax p {
+	color: white;
+}
+
+/*-----------------------------------SKILLS---------------------------------------*/
+
+.skillbox {
+	background-color: #F5F5F5;
+	margin: 40px auto;
+	padding: 0 15px 15px 15px; 
+}
+
+.skillbox span i {
+	color: #E65100;
+	font-size: 36px;
+	margin-bottom: 20px;
+	margin-right: -5px;
+}
+
+.bouton {
+	background-color: #F5F5F5;
+	padding: 0 ;
+}
+
+.html, .css, .bootstrap, .wordpress, .php, .jquery, .mysql, .git, .eclipse {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.bouton {
+	border: none;
+}
+
+.bouton:active, .bouton:hover, .bouton:focus, .bouton:active:focus {
+	background-color: #F5F5F5;
+	box-shadow: none;
+}
+
+.mysql .bouton {
+	height: 128px;
+	width: 128px;
+}
+
+.cv {
+	margin: auto auto 60px;
+	height: 100%;
+}
+
+.cv a:hover {
+	text-decoration: none;
+}
+
+.cv a {
+	display: block;
+	height: 128px;
+	width: 128px;
+	background-image: url("images/cv-pdf.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	margin: auto;
+}
+
+.cv p {
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	width: 100%;
+	margin-top: 5px;
+    padding-left: 21px;
+}
+
+@media all and (max-width: 379px) {
+	.html, .css, .bootstrap, .wordpress, .php, .jquery, .mysql, .git {
+		width: 50%;
+		float: left;
+		padding: 0;
+	}
+
+	.eclipse {
+		float: none;
+		width: 50%;
+		padding: 0;
+	}
+
+	.cv, .comp {
+		width: 100%;
+		float: left;
+	}
+}
+
+/*-----------------------------------CONTACT--------------------------------------*/
+
+.contact {
+	background-color: #F5F5F5;
+	padding: 0 25px 15px 25px;
+}
+
+.contact span i {
+	color: #E65100;
+	font-size: 36px;
+	margin-bottom: 20px;
+	margin-right: -5px;
+}
+
+.contacthead {
+	margin-bottom: 20px;
+}
+
+.champ {
+	padding: 10px;
+}
+
+.contact p {
+	margin: 20px 0;
+	text-align: justify;
+}
+
+.btn-primary {
+	font-weight: bold;
+}
+
+
+/*------------------------------------FOOTER--------------------------------------*/
+
+footer {
+	margin-top: 50px;
+	padding-top: 5px;
+	background-color: #212121;
+	color: white;
+}
+
+.logofooter {
+	font-family: 'edo';
+	font-size: 24px;
+	float: left;
+	padding: 10px;
+	color: #E65100;
+	margin: 0;
+}
+
+.intitfooter {
+	float: left;
+	font-family: 'edo';
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px;
+	display: inline-block;
+	color: #E65100;
+	margin-top: 5px;
+}
+
+.copyright {
+	margin: 5px 0 0 0;
+	padding: 10px;
+}
+
+.footsocial {
+	float: right;
+	padding: 10px;
+	margin: 0;
+}
+
+.footsocial li {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+}
+
+@media all and (max-width: 767px) {
+	.copyright, .footsocial, .logofooter, .intitfooter {
+		float: none;
+	}
+}
+
+#boutonfixe {
+	background-color: white;
+	color: #E65100;
+	padding: 8px 12px;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}
