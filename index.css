@@ -75,6 +75,10 @@ header {
 	margin-top: 10px;
 }
 
+.navbar-nav {
+	margin: 10px 0;
+}
+
 .logo {
 	font-family: 'edo';
 	font-size: 30px;
@@ -83,26 +87,10 @@ header {
 	color: #E65100;
 }
 
-@media all and (min-width: 768px) and (max-width: 991px) {
-	.navbar-nav {
-		float: left;
-	}
-}
-
-@media all and (min-width: 992px) {
-	.navbar-nav {
-		float: right;
-	}
-}
-
 .navbar {
 	background-color: #F5F5F5;
 	border: none;
 	margin: 0;
-}
-
-.navbar-nav {
-	margin: 10px 0;
 }
 
 .navbar-default .navbar-nav li a {
@@ -128,6 +116,23 @@ header {
 
 .li-home, .li-about, .li-skills, .li-folio {
 	border-right: 1px solid #E0E0E0;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+	.navbar-nav {
+		width: 100%;
+		margin-left: 15%;
+	}
+
+	.navbar-header {
+		padding-left: 25%;
+	}
+}
+
+@media all and (min-width: 992px) {
+	.navbar-nav {
+		float: right;
+	}
 }
 
 /*-----------------------------------MAINTITLE---------------------------------*/
