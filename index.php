@@ -10,9 +10,9 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="initial-scale=1, user-scalable=yes, maximum-scale=1">
-		<meta name="author" content="Manuel Vercucque">
 		<title>ManuelWeb - Développeur &amp; Intégrateur Web</title>
-		<meta name="description" content="Page personnelle et portfolio de Manuel Vercucque, développeur et intégrateur web sur Lyon." />
+		<meta name="description" content="Page personnelle et portfolio de Manuel Vercucque, développeur et intégrateur web sur Lyon et sa région." />
+		<meta name="robots" content="Index, Nofollow">
 		<!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     	<![endif]-->
@@ -63,8 +63,8 @@
 					<i class="fa fa-quote-left hidden-xs"></i>Qui je suis, d'où je viens...<i class="fa fa-quote-right hidden-xs"></i>
 				</p>
 				<p class="paragraphe">
-					Passionné par le web et son évolution depuis les années 1990, je n'ai pourtant décidé d'en faire un projet professionnel que récemment. 
-					J'ai travaillé par le passé dans le domaine paramédical, en tant qu'ambulancier, je ne regrette pas cette expérience qui m'a apporté maturité, patience et responsabilité.<br />
+					Passionné par le web et son évolution depuis les années 1990, j'ai récemment décidé d'en faire un projet professionnel. 
+					J'ai travaillé par le passé dans le domaine paramédical, en tant qu'ambulancier, j'ai profité de cette expérience pour acquérir maturité, patience et responsabilité.<br />
 					J'ai trouvé aujourd'hui dans le cadre de ma reconversion une motivation nouvelle, et une profonde satisfaction de pouvoir mettre à profit mes compétences professionnelles  dans ce qui m'a toujours passionné.
 				</p>					
 		</article>
