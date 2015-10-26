@@ -85,7 +85,7 @@
 			</div>
 		</section>
 
-		<section class="parallax">			
+		<section class="fixed">			
 				<p class="quote">"Le meilleur moyen de prédire l'avenir, c'est de l'inventer."</p>
 				<p class="kay">Alan Kay</p>			
 		</section>
