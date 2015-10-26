@@ -280,7 +280,7 @@
 
 		    	<div class="eclipse col-md-4">
 		    		<span data-tip="Eclipse" tabindex="0">
-		    		<button data-toggle="modal" href="#eclipse" class="btn btn-primary bouton"><span data-tip="Eclipse" tabindex="0"><img class="img-responsive" src="images/logo-eclipse.png" alt="" /></button>
+		    		<button data-toggle="modal" href="#eclipse" class="btn btn-primary bouton"><img class="img-responsive" src="images/logo-eclipse.png" alt="" /></button>
 		    		</span>
 					<div class="modal fade" id="eclipse">
   						<div class="modal-dialog">
@@ -302,7 +302,7 @@
 		    </div>	
 
 			<div class="cv col-md-6">
-			    <a href="assets/CV Manuel VERCUCQUE Dev Web.pdf">
+			    <a href="assets/CV Manuel VERCUCQUE Dev Web.pdf" target=_blank>
 				<img class="img-responsive" src="images/cv-pdf.png" alt="cv-logo" />
 				<p>Télécharger mon CV</p>
 				</a>			    		    
@@ -360,14 +360,15 @@
 		</section>
 
 		<footer class="container">
-			<div class="col-md-4 col-sm-4 hidden-xs">			
+			<div class="hidden-xs footlogo">			
 				<div class="logofooter">.M.</div>
 				<div class="intitfooter">ManuelWeb.fr</div>			
 			</div>
-			<div class="col-md-4 col-sm-4 col-xs-12">
+			<div class="rights">
 	            <p class="copyright">© 2015 ManuelWeb.fr</p>
 	        </div>
-	        <div class="col-md-4 col-sm-4 col-xs-12">
+	        <div class="social">
+	        	<a class="github" href="https://github.com/Steele07" target=_blank><img class="img-responsive imggit" src="images/logo-github.png" alt="logo-git" />GitHub</a>
 	            <ul class="footsocial">
 	                <li class="twitter"><a href="https://twitter.com/ManuelVercucque" target=_blank title="Twitter"><img class="img-responsive" src="images/Twitter-icon.png" alt="twitter" /></a></li>
 	                <li class="facebook"><a href="https://www.facebook.com/manuel.vercucque" target=_blank title="Facebook"><img class="img-responsive" src="images/icone_facebook.gif" alt="facebook" /></a></li>

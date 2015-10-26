@@ -46,7 +46,7 @@ header {
     overflow:hidden;
 }
 
-.aboutme, .photo img, .code img, .devbox, .contact, .skillbox, footer {
+.aboutme, .photo img, .code img, .devbox, .contact, .skillbox, footer, .imggit {
 	border-radius: 8px;
 }
 
@@ -380,6 +380,7 @@ h3 {
 .bouton:active, .bouton:hover, .bouton:focus, .bouton:active:focus {
 	background-color: #F5F5F5;
 	box-shadow: none;
+	outline: 0;
 }
 
 .mysql .bouton {
@@ -476,6 +477,21 @@ footer {
 	color: white;
 }
 
+.footlogo, .rights {
+	width: 25%;
+	display: inline-block;
+}
+
+.footlogo {
+	float: left;
+}
+
+.social {
+	width: 40%;
+	display: inline-block;
+	float: right;
+}
+
 .logofooter {
 	font-family: 'edo';
 	font-size: 24px;
@@ -513,9 +529,59 @@ footer {
 	height: 36px;
 }
 
+.github {
+	display: inline-block;
+	padding: 10px;
+	color: #E65100;
+	font-weight: bold;
+}
+
+.github:hover {
+	color: white;
+	transition: color 0.6s ease;
+}
+
+.github, .github:hover, .github:active, .github:focus, .github:visited {
+	outline: 0;
+	color: #E65100;
+	text-decoration: none;
+}
+
+.github:hover {
+	color: white;
+}
+
+.imggit {
+	display: inline-block;
+	background-color: white;
+    margin-right: 10px;
+	height: 36px;
+	width: 36px;
+}
+
 @media all and (max-width: 767px) {
 	.copyright, .footsocial, .logofooter, .intitfooter {
 		float: none;
+	}
+}
+
+@media all and (max-width: 991px) {
+	.social {
+		width: 50%;
+	}
+
+	.footlogo, .rights {
+		width: 25%;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.rights {
+		width: 50%;
+	}
+
+	.social {
+		width: 100%;
 	}
 }
 
