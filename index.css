@@ -281,9 +281,9 @@ h3 {
 
 
 
-/*------------------------------------PARALLAX------------------------------------*/
+/*------------------------------------FIXED----------------------------------------*/
 
-.parallax {
+.fixed {
 	height: 50vh;
     background-image: url("images/parallax4.jpg");
     background-attachment: fixed;    
@@ -311,7 +311,7 @@ h3 {
 	}
 }
 
-.parallax p {
+.fixed p {
 	color: white;
 }
 
@@ -436,6 +436,26 @@ h3 {
 	}
 }
 
+/*-----------------------------------PROJECTS------------------------------------*/
+
+.projects {
+	height: 50vh;
+    background-image: url("images/background2.jpg");
+    background-attachment: fixed;    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.projects span i {
+	color: #E65100;
+	font-size: 36px;
+	margin-bottom: 20px;
+	margin-right: -5px;
+}
+
 /*-----------------------------------CONTACT--------------------------------------*/
 
 .contact {
@@ -450,7 +470,7 @@ h3 {
 	margin-right: -5px;
 }
 
-.contacthead {
+.boxhead {
 	margin-bottom: 20px;
 }
 

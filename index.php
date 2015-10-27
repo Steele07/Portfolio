@@ -84,7 +84,7 @@
 			</div>
 		</section>
 
-		<section class="parallax">			
+		<section class="fixed">			
 				<p class="quote">"Le meilleur moyen de prédire l'avenir, c'est de l'inventer."</p>
 				<p class="kay">Alan Kay</p>			
 		</section>
@@ -308,8 +308,16 @@
 			</div>	        
 		</article>
 
+		<section class="projects">
+			<div class="boxhead col-md-12">
+				<h3>Mes Réalisations</h3>
+				<span><i class="fa fa-angle-double-up fa-2x"></i><i class="fa fa-angle-double-up fa-2x"></i><i class="fa fa-angle-double-up fa-2x"></i><i class="fa fa-angle-double-up fa-2x"></i></span>
+			</div>	
+						
+		</section>
+
 		<section id="contact" class="container contact">
-			<div class="contacthead col-md-12">
+			<div class="boxhead col-md-12">
 				<h3>Contactez moi</h3>
 				<span><i class="fa fa-angle-double-up fa-2x"></i><i class="fa fa-angle-double-up fa-2x"></i><i class="fa fa-angle-double-up fa-2x"></i><i class="fa fa-angle-double-up fa-2x"></i></span>
 			</div>
