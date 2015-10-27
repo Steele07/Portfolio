@@ -8,11 +8,10 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="initial-scale=1, user-scalable=yes, maximum-scale=1">
 		<title>ManuelWeb - Développeur &amp; Intégrateur Web</title>
-		<meta name="description" content="Page personnelle et portfolio de Manuel Vercucque, développeur et intégrateur web sur Lyon et sa région." />
-		<meta name="robots" content="Index, Nofollow">
+		<meta name="description" content="Page personnelle et portfolio de Manuel Vercucque, développeur et intégrateur web sur Lyon et sa région.">
 		<!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     	<![endif]-->
@@ -85,7 +84,7 @@
 			</div>
 		</section>
 
-		<section class="fixed">			
+		<section class="parallax">			
 				<p class="quote">"Le meilleur moyen de prédire l'avenir, c'est de l'inventer."</p>
 				<p class="kay">Alan Kay</p>			
 		</section>
@@ -302,7 +301,7 @@
 		    </div>	
 
 			<div class="cv col-md-6">
-			    <a href="assets/CV Manuel VERCUCQUE Dev Web.pdf" target=_blank>
+			    <a href="assets/CV Manuel VERCUCQUE Dev Web.pdf" rel="nofollow" target=_blank>
 				<img class="img-responsive" src="images/cv-pdf.png" alt="cv-logo" />
 				<p>Télécharger mon CV</p>
 				</a>			    		    
@@ -382,6 +381,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+    <?php include_once("analyticstracking.php") ?>
 	</body>	
 </html>
 

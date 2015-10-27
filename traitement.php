@@ -11,6 +11,9 @@ if(!array_key_exists('email', $_POST) || $_POST['email'] == '' || !filter_var($_
 if(!array_key_exists('message', $_POST) || $_POST['message'] == '') {
   $errors ['message'] = "vous n'avez pas renseigné votre message";
   }
+if(array_key_exists('antispam', $_POST)) {
+  $errors ['antispam'] = "Vous êtes un robots spammer";
+  }
 
 
   if(!empty($errors)){

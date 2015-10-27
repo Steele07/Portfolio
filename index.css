@@ -281,9 +281,9 @@ h3 {
 
 
 
-/*------------------------------------FIXED--------------------------------------*/
+/*------------------------------------PARALLAX------------------------------------*/
 
-.fixed {
+.parallax {
 	height: 50vh;
     background-image: url("images/parallax4.jpg");
     background-attachment: fixed;    
@@ -311,7 +311,7 @@ h3 {
 	}
 }
 
-.fixed p {
+.parallax p {
 	color: white;
 }
 
