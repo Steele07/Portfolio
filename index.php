@@ -42,7 +42,7 @@
 							<li class="li-home"><a href="index.php"><i class="fa fa-home fa-lg"></i><br />Accueil</a></li>
 							<li class="li-about"><a href="#about"><i class="fa fa-user fa-lg"></i><br />A propos</a></li>
 							<li class="li-skills"><a href="#skills"><i class="fa fa-code fa-lg"></i><br />Compétences</a></li>
-							<li class="li-folio disabled"><a href="folio.php"><i class="fa fa-briefcase fa-lg"></i><br />Portfolio</a></li>	
+							<li class="li-folio"><a href="#projects"><i class="fa fa-briefcase fa-lg"></i><br />Portfolio</a></li>	
 							<li class="li-contact"><a href="#contact"><i class="fa fa-envelope fa-lg"></i><br />Contact</a></li>							
 						</ul>						
 					</div>										
@@ -308,12 +308,77 @@
 			</div>	        
 		</article>
 
-		<section class="projects">
+		<section id="projects">
 			<div class="boxhead col-md-12">
 				<h3>Mes Réalisations</h3>
-				<span><i class="fa fa-angle-double-up fa-2x"></i><i class="fa fa-angle-double-up fa-2x"></i><i class="fa fa-angle-double-up fa-2x"></i><i class="fa fa-angle-double-up fa-2x"></i></span>
-			</div>	
-						
+				<span><i class="fa fa-angle-double-up fa-2x"></i><i class="fa fa-angle-double-up fa-2x"></i><i class="fa fa-angle-double-up fa-2x"></i><i class="fa fa-angle-double-up fa-2x"></i></span>	
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 projectbox">
+						<span data-tip="kwoon" tabindex="0">
+			    		<button data-toggle="modal" href="#kwoon" class="btn btn-primary bouton2"><img class="img-responsive" src="images/screenshot-kwoon.jpg" alt="screenshot-kwoon" /></button>
+			    		</span>
+			    		<div class="modal fade" id="kwoon">
+	  						<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">x</button>
+										<h4 class="modal-title modal-title1">Kwoon</h4>
+									</div>
+									<div class="modal-body">
+										<a href="projects/kwoon/projet-index.html" target=_blank><img src="images/screenshot-kwoon.jpg" class="img-responsive" alt="screenshot-kwoon" /></a>
+									</div>
+									<div class="modal-footer modal-footer1">
+										<div class="col-md-6">Projet scolaire d'intégration<br /><em>Reproduction de template responsive</em></div>
+										<div class="col-md-6">Technologies utilisées :
+											<ul>
+												<li>HTML5</li>
+												<li>CSS3</li>
+												<li>Bootstrap</li>
+												<li>Javascript</li>
+												<li>Plugins JQuery</li>
+											</ul>
+										</div>
+										<button class="btn btn-info" data-dismiss="modal">Fermer</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 projectbox">				
+						<span data-tip="portfolio" tabindex="0">
+			    		<button data-toggle="modal" href="#portfolio" class="btn btn-primary bouton2"><img class="img-responsive" src="images/screenshot-portfolio.jpg" alt="screenshot-portfolio" /></button>
+			    		</span>
+			    		<div class="modal fade" id="portfolio">
+	  						<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">x</button>
+										<h4 class="modal-title modal-title1">Mon Premier Portfolio</h4>
+									</div>
+									<div class="modal-body">
+										<a href="index.php" target=_blank><img src="images/screenshot-portfolio.jpg" class="img-responsive" alt="screenshot-portfolio" /></a>
+									</div>
+									<div class="modal-footer modal-footer1">
+										<div class="col-md-6">Création de mon Portfolio<br /><em>Présentation &amp; Réalisations</em></div>
+										<div class="col-md-6">Technologies utilisées :
+											<ul>
+												<li>HTML5</li>
+												<li>CSS3</li>
+												<li>Bootstrap</li>
+												<li>PHP</li>
+												<li>Plugins JQuery</li>
+											</ul>
+										</div>
+										<button class="btn btn-info" data-dismiss="modal">Fermer</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>					
 		</section>
 
 		<section id="contact" class="container contact">

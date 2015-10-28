@@ -56,6 +56,10 @@ header {
 	}
 }
 
+a:active, a:hover, a:focus {
+	outline: 0;
+}
+
 /* -------------------------------------NAV--------------------------------------*/
 
 
@@ -438,8 +442,7 @@ h3 {
 
 /*-----------------------------------PROJECTS------------------------------------*/
 
-.projects {
-	height: 50vh;
+#projects {
     background-image: url("images/background2.jpg");
     background-attachment: fixed;    
     background-position: center center;
@@ -447,13 +450,48 @@ h3 {
     background-size: cover;
     margin-bottom: 40px;
     color: white;
+    padding-bottom: 40px;
+    font-weight: bold;
 }
 
-.projects span i {
+#projects span i {
 	color: #E65100;
 	font-size: 36px;
 	margin-bottom: 20px;
 	margin-right: -5px;
+}
+
+.bouton2 {
+	width: 100% !important;
+}
+
+.bouton2:active, .bouton2:hover, .bouton2:focus, .bouton2:active:focus {
+	box-shadow: none;
+	outline: 0;
+}
+
+#projects [data-tip]:hover:before, #projects [data-tip]:focus:before, 
+#projects [data-tip]:hover:after, #projects [data-tip]:focus:after {
+	display: none;
+}
+
+.modal-content {
+	background-image: url('images/background1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.close {
+	color: white;
+}
+
+.modal-title1 {
+	font-weight: bold;
+}
+
+.modal-footer1 {
+	text-align: center;
 }
 
 /*-----------------------------------CONTACT--------------------------------------*/
