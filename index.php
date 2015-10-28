@@ -315,7 +315,7 @@
 			</div>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 projectbox">
+					<div class="col-md-6 projectbox">					
 						<span data-tip="kwoon" tabindex="0">
 			    		<button data-toggle="modal" href="#kwoon" class="btn btn-primary bouton2"><img class="img-responsive" src="images/screenshot-kwoon.jpg" alt="screenshot-kwoon" /></button>
 			    		</span>
@@ -344,7 +344,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div>					
 					</div>
 					<div class="col-md-6 projectbox">				
 						<span data-tip="portfolio" tabindex="0">
