@@ -15,20 +15,22 @@
 		<!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     	<![endif]-->
-    	<link rel="shortcut icon" type="image/x-icon" href="images/mfavicon.ico" />
+    	<link rel="shortcut icon" type="image/x-icon" href="images/logoM-favicon.png" />
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    	<link href="animate.css" rel="stylesheet" />	
     	<link href="index.css" rel="stylesheet" />	
 	</head>
 
 	<body>
+	<?php include_once("analyticstracking.php") ?>
 	<main>
 		<header id="header">	
 	        <nav class="navbar navbar-default">
 				<div class="container">					
 					<div class="navbar-header">
-						<a href="index.php"><span class="logo">.M.</span>
-						<span class="intit">Bienvenue sur ManuelWeb.fr</span></a>
+						<img class="logo" src="images/logoM.png" alt="logo-manuelweb" />
+						<span class="intit">Bienvenue sur ManuelWeb.fr</span>
 
 	                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 	                    <span class="sr-only">Toggle navigation</span>
@@ -50,8 +52,8 @@
 			</nav>
 
 			<section class="container maintitle">							
-				<h1>ManuelWeb.fr</h1>
-				<h2>Développeur &amp; Intégrateur Web</h2>				
+				<h1 class="animated zoomIn">ManuelWeb.fr</h1>
+				<h2 class="animated zoomIn">Développeur &amp; Intégrateur Web</h2>				
 			</section>
 		</header>
 
@@ -301,7 +303,7 @@
 		    </div>	
 
 			<div class="cv col-md-6">
-			    <a href="assets/CV Manuel VERCUCQUE Dev Web.pdf" rel="nofollow" target=_blank>
+			    <a href="assets/CV Manuel VERCUCQUE Dev Web.pdf" rel="nofollow" target="_blank">
 				<img class="img-responsive" src="images/cv-pdf.png" alt="cv-logo" />
 				<p>Télécharger mon CV</p>
 				</a>			    		    
@@ -316,12 +318,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 projectbox">					
-						<span data-tip="kwoon" tabindex="0">
-			    		<button data-toggle="modal" href="#kwoon" class="btn btn-primary bouton2"><img class="img-responsive" src="images/screenshot-kwoon.jpg" alt="screenshot-kwoon" /></button>
-			    		</span>
+						<a class="bscreen" href="#kwoon" data-toggle="modal" data-tip="kwoon" tabindex="0">
+			    			<span class="bouton2">Kwoon - Projet de Formation</span>
+			    			<img class="img-responsive" src="images/screenshot-kwoon.jpg" alt="screenshot-kwoon" />
+			    		</a>
 			    		<div class="modal fade" id="kwoon">
 	  						<div class="modal-dialog">
-								<div class="modal-content">
+								<div class="modal-content content-projects">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal">x</button>
 										<h4 class="modal-title modal-title1">Kwoon</h4>
@@ -347,12 +350,13 @@
 						</div>					
 					</div>
 					<div class="col-md-6 projectbox">				
-						<span data-tip="portfolio" tabindex="0">
-			    		<button data-toggle="modal" href="#portfolio" class="btn btn-primary bouton2"><img class="img-responsive" src="images/screenshot-portfolio.jpg" alt="screenshot-portfolio" /></button>
-			    		</span>
+						<a class="bscreen" href="#portfolio" data-toggle="modal" data-tip="portfolio" tabindex="0">
+			    			<span class="bouton2">Mon Premier Portfolio</span>
+			    			<img class="img-responsive" src="images/screenshot-portfolio.jpg" alt="screenshot-portfolio" />
+			    		</a>
 			    		<div class="modal fade" id="portfolio">
 	  						<div class="modal-dialog">
-								<div class="modal-content">
+								<div class="modal-content content-projects">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal">x</button>
 										<h4 class="modal-title modal-title1">Mon Premier Portfolio</h4>
@@ -429,11 +433,12 @@
 					  	</div>					
     			</form>
 			</div>
+			<p class="mailme">Ou écrivez-moi à : <a class="mail" href="mailto:manuelvercucque@gmail.com">manuelvercucque[at]gmail.com</a></p>
 		</section>
 
 		<footer class="container">
 			<div class="hidden-xs footlogo">			
-				<div class="logofooter">.M.</div>
+				<img class="logofooter" src="images/logoM.png" alt="logo-manuelweb" />
 				<div class="intitfooter">ManuelWeb.fr</div>			
 			</div>
 			<div class="rights">
@@ -454,7 +459,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
-    <?php include_once("analyticstracking.php") ?>
 	</body>	
 </html>
 
